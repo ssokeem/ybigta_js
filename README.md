@@ -1,2 +1,2 @@
-## ybigta_junior_session 👩‍💻
-This is a repository for submitting assignments for educational sessions.
+## YBIGTA JUNIOR SESSION 👩‍💻
+This is a repository for submitting assignments of DA Junior Session.
