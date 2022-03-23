@@ -46,9 +46,9 @@ i = 1
 
 for item in items:
     
-    name = browser.find_element(By.CSS_SELECTOR, 'div.basicList_title__3P9Q7').text
-    price = browser.find_element(By.CSS_SELECTOR, 'span.price_num__2WUXn').text
-    link = browser.find_element(By.CSS_SELECTOR, 'div > a.basicList_link__1MaTN').get_attribute('href')
+    name = item.find_element(By.CSS_SELECTOR, 'div.basicList_title__3P9Q7').text
+    price = item.find_element(By.CSS_SELECTOR, 'span.price_num__2WUXn').text
+    link = item.find_element(By.CSS_SELECTOR, 'div > a.basicList_link__1MaTN').get_attribute('href')
     
     print(i, name, price, link)
     
