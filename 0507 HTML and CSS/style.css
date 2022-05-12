@@ -1,0 +1,14 @@
+.small-btn{
+    width: 100px;
+    height: 40px;
+}
+
+.medium-btn{
+    width: 150px;
+    height: 60px;
+}
+
+.large-btn{
+    width: 200px;
+    height: 80px;
+}
